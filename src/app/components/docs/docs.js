@@ -25,6 +25,10 @@ export const Docs = () => {
                         <img src={file} alt={'docs-item'} />
                         <div className={`${DEFAULT_CLASSNAME}_item-text`}>{"Политика конфиденциальности"}</div>
                     </div>
+                    <div className={`${DEFAULT_CLASSNAME}_item`}>
+                        <img src={file} alt={'docs-item'} />
+                        <div className={`${DEFAULT_CLASSNAME}_item-text`}>{"Договор оказания услуг"}</div>
+                    </div>
                 </div>
                 <div className={`${DEFAULT_CLASSNAME}_text`}>
                     <div className={`${DEFAULT_CLASSNAME}_text-title`}>{"Юр. инфо."}</div>
